@@ -130,3 +130,41 @@ h3{
     font-size: 200%;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .container-fluid{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .quality-div{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .test-conatiner{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .price-div{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .gallery-div{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .m-div{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .reg-div{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+}
