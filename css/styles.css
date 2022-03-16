@@ -114,7 +114,7 @@ h3{
   padding: 3% 10%;
 }
 #footer{
-  padding: 7% 15%;
+  margin:  7% 15%;
   text-align: center;
     background-color: #fff;
 }
@@ -129,11 +129,17 @@ h3{
   h2{
     font-size: 200%;
   }
-}
-
-@media screen and (max-width: 479px) {
+  .div-col{
+    -webkit-box-flex: 1;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .card-deck .card{
+        flex: 0 0 100%
+  }
   .container-fluid{
-    margin-left: 2%;
+    margin-left: 0.7%;
     margin-right: 2%;
     padding-left: 2%;
     padding-right: 2%;
@@ -149,8 +155,7 @@ h3{
     padding-right: 2%;
   }
   .price-div{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin:3% 15%;
   }
   .gallery-div{
     margin-left: 2%;
@@ -166,5 +171,4 @@ h3{
     margin-left: 2%;
     margin-right: 2%;
   }
-
 }
